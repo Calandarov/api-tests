@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7592269-f087-4e93-813a-125dec6a2bf2" name="Changes" comment="добавлен эндпоинт">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/requests/Requests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/specifications/Specifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/RootWithObjectInData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/RootWithListInData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/RootWithListInData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Support.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/UnknownResourceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/UnknownResourceData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/RootWithListInData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/RootWithListInData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.UserDataTest.executor": "Run",
+    "JUnit.UserDataTest.getUserList.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,6 +62,33 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="entities" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserDataTest.getUserList">
+    <configuration name="UserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserDataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDataTest.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserDataTest" />
+      <option name="METHOD_NAME" value="getUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDataTest.getUserList" />
+        <item itemvalue="JUnit.UserDataTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

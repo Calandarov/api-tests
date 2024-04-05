@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 05 15:06:33 MSK 2024","Fri Apr 05 15:06:34 MSK 2024","950","","UserDataTest","","UserDataTest","getUserList","Получение первой страницы из списка всех пользователей",""

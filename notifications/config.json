@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "api-tests",
+    "environment": "test env",
+    "comment": "test allure notifications",
+    "reportLink": "reportLink",
+    "language": "en",
+    "allureFolder": "/Users/dmitrijkalandarov/IdeaProjects/api-tests/allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7173351450:AAH4wH_lspAxeDfAWJZ8ydiZb7mGVo7YWfc",
+    "chat": "-1002091116702",
+    "replyTo": ""
+  }
+}
