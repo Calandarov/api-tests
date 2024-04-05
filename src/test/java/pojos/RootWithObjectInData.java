@@ -1,5 +1,6 @@
 package pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
@@ -8,6 +9,7 @@ import lombok.*;
 @Getter
 @Builder
 @EqualsAndHashCode
+@JsonIgnoreProperties("support")
 public class RootWithObjectInData {
     private int page;
     @JsonProperty("per_page")
@@ -15,7 +17,6 @@ public class RootWithObjectInData {
     private int total;
     @JsonProperty("total_pages")
     private int totalPages;
-    // TODO: изменить тип данных в списке
+    // TODO: изменить тип данных
     private Object data;
-    private Support support;
 }
