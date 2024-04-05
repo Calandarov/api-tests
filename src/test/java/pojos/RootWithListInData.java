@@ -1,4 +1,4 @@
-package entities;
+package pojos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
